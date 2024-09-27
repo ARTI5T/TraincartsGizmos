@@ -1,0 +1,12 @@
+name: TrainCartsGizmos
+version: '${version}'
+main: work.art1st.traincartsgizmos.TrainCartsGizmos
+api-version: '1.19'
+depend: [BKCommonLib, Train_Carts]
+
+commands:
+  tcg:
+    description: "TrainCartsGizmos"
+    usage: /tcg <op> <train>
+    permission: "tcgizmos.command"
+    permission-message: "No permission"
